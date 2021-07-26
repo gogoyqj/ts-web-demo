@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "module": "commonjs",                     
+    "lib": ["ESNext", "DOM"],                     
+    "declaration": true,                   
+    "sourceMap": true,                     
+    "outDir": "./lib",                        
+    "rootDir": "./src",                       
+    "strict": true,                            
+    // "alwaysStrict": false,                  
+    "baseUrl": "./",                       
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true  
+  }
+}
